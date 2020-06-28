@@ -1,0 +1,8 @@
+<suite name="Functional Test">
+    <test name="Test Runner">
+        <parameter name="driverNm" value="chrome"></parameter>
+        <classes>
+            <class name="API.slackHomework"></class>
+        </classes>
+    </test>
+</suite>
