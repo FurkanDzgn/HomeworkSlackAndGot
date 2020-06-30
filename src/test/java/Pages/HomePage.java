@@ -14,8 +14,11 @@ public class HomePage {
     @FindBy(xpath = "//span[.='api_channel']")
     public WebElement apiChannelButton;
 
-    @FindBy(xpath = "//span[contains(.,'student B')]")
+    @FindBy(xpath = "//span[.='Text from nobody.....!!??']")
     public WebElement message;
+
+    @FindBy(id="undefined")
+    public WebElement sendButton;
 
 
 

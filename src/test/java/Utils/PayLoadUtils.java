@@ -29,4 +29,12 @@ public class PayLoadUtils {
                 "}";
     }
 
+    public static String PostMethod(String text){
+
+        return "{\n" +
+                "  \"channel\": \"C0164SXRETU\",\n" +
+                "  \"text\": \""+text+"\"\n" +
+                "}";
+    }
+
 }
